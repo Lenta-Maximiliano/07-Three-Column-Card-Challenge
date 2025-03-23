@@ -1,0 +1,15 @@
+.main-container{
+  width: 325px;
+  margin: 60px auto 40px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/*----------Desktop----------*/
+@media screen and (min-width: 944px){
+  .main-container{
+    width: 924px;
+    display: flex;
+    margin-top: 120px;
+  }
+}

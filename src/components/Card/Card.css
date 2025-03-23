@@ -1,0 +1,73 @@
+.card{
+  width: 100%;
+  height: 440px;
+  padding: 48px;
+}
+.card--sedans{
+  background-color: var(--BrightOrange);
+}
+.card--suvs{
+  background-color: var(--DarkCyan);
+}
+.card--luxury{
+  background-color: var(--VeryDarkCyan);
+}
+.card__title{
+  margin-bottom: 36px;
+}
+.card__title{
+  color: var(--VeryLightGray);
+  font-family: "Big Shoulders Display", serif;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.card__description{
+  color: var(--TransparentWhite);
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.card__button{
+  width: 148px;
+  height: 46px;
+  border-radius: 45px;
+  border-style: none;
+  background-color: var(--VeryLightGray);
+  font-family: "Lexend Deca", serif;
+  font-size: 15px;
+}
+.card__button:hover{
+  cursor: pointer;
+  border: 2px solid var(--VeryLightGray);
+}
+.card__button--sedans{
+  color: var(--BrightOrange);
+}
+.card__button--sedans:hover{
+  background-color: var(--BrightOrange);
+  color: var(--VeryLightGray);
+}
+.card__button--suvs{
+  color: var(--DarkCyan);
+}
+.card__button--suvs:hover{
+  background-color: var(--DarkCyan);
+  color: var(--VeryLightGray);
+}
+.card__button--luxury{
+  color: var(--VeryDarkCyan);
+}
+.card__button--luxury:hover{
+  background-color: var(--VeryDarkCyan);
+  color: var(--VeryLightGray);
+}
+
+/*----------Desktop----------*/
+@media screen and (min-width: 944px){
+  .card{
+    height: 500px;
+  }
+  .card__description{
+    margin-bottom: 80px;
+  }
+}
